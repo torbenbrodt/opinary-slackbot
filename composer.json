@@ -1,0 +1,14 @@
+{
+    "autoload": {
+        "psr-4": {
+            "Slackbot\\": "src/"
+        }
+    },
+    "require": {
+        "vlucas/phpdotenv": "^5.5",
+        "jolicode/slack-php-api": "^4.5",
+        "symfony/http-client": "^6.2",
+        "nyholm/psr7": "^1.5",
+        "guzzlehttp/guzzle": "^7.0"
+    }
+}
